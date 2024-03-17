@@ -182,7 +182,7 @@ class _ChatState extends State<Chat> {
                 width: MediaQuery.of(context).size.width,
                 color: Colors.white54,
                 child: FutureBuilder(
-                    future: Future.delayed(Duration(milliseconds: 0)),
+                    future: Future.delayed(Duration(milliseconds: 2000)),
                   builder: (context, snapshot) {
                     return ListView.builder(itemCount:_name.length,itemBuilder: (BuildContext context,int index){
 
